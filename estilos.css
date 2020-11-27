@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.contorno{
+    margin: 3%;
+    width: 90%;
+    padding: 2%;
+    border: 2px solid;
+    border-radius: 20px;
+
+}
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.cabecera2{
+    margin: 2% auto 2% auto; 
+    text-align: center;
+}
+.tabla-header{
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: azure;
+}
+.tabla-header td {
+    width: 10%;
+    min-height: 20%;
+    padding: 3%;
+}
+.Ru{
+border-bottom: 1px solid;
+border-right: 1px solid;
+}
+.Fa{
+    display:block;
+    width: 200%;
+    position: relative;
+    bottom: 1em;
+}
+.Fa>td {
+    border-bottom: 1px solid;
+}
+
+.AuT{
+    display: block;
+    width: 200%;
+    position: relative;
+    bottom: 1em;
+}
+.titulo{
+    margin-left: 15px;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 24.99%;
+}
+.col-4{
+    width: 33.32%;
+}
+.col-5{
+    width: 41.65%;
+}
+.col-6{
+    width: 49.98%;
+}
+.col-7{
+    width: 58.31%;
+}
+.col-8{
+    width: 66.64%;
+}
+.col-9{
+    width: 74.97%;
+}
+.col-10{
+    width: 83.3%;
+}
+.col-11{
+    width: 91.63%;
+}
+.col-12{
+    width: 100%;
+}
